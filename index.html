@@ -13,7 +13,24 @@
 <meta property="og:title" content="TeripOgid Pvt Ltd - Andaman Tour Experts">
 <meta property="og:description" content="Book best Andaman tour packages with TeripOgid. Cab service, hotel booking and water activities available.">
 <meta property="og:type" content="website"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
+<style>.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
 
 body{margin:0;font-family:Arial;background:#f4f6f9}
 header{background:#0d1b2a;color:white;padding:20px;text-align:center}
